@@ -1,0 +1,31 @@
+Constante mágica
+
+Definição
+
+__LINE__
+
+Conterá o número da linha do script na qual ela foi declarada.
+
+__FILE__
+
+Conterá o caminho completo para o arquivo PHP no qual ela foi declarada.
+
+__DIR__
+
+Conterá o diretório do arquivo no qual ela foi declarada.
+
+__FUNCTION__
+
+Conterá o nome da função na qual ela foi declarada.
+
+__CLASS__
+
+Conterá o nome da classe na qual ela foi declarada.
+
+__METHOD__
+
+Conterá o nome da classe e do método no qual ela foi declarada.
+
+__NAMESPACE__
+
+Conterá o nome namespace no qual ela foi declarada.
