@@ -60,7 +60,7 @@ CREATE TABLE `clientes_produtos` (
 --
 
 INSERT INTO `clientes_produtos` (`id_cliente_produto`, `id_cliente`, `id_produto`, `data`) VALUES
-(3, 2, 3, '2019-06-25 21:06:55');
+(2, 1, 2, '2019-06-25 21:06:55');
 
 -- --------------------------------------------------------
 
@@ -81,8 +81,8 @@ CREATE TABLE `produtos` (
 --
 
 INSERT INTO `produtos` (`id_produto`, `descricao`, `quantidade`, `preco`, `data`) VALUES
-(2, 'CELULAR', '35', 144.00, '2021-09-01 21:40:00'),
-(3, 'NOTEBOOK', '84', 1470.00, '2021-09-01 21:40:00');
+(1, 'CELULAR', '35', 144.00, '2021-09-01 21:40:00'),
+(2, 'NOTEBOOK', '84', 1470.00, '2021-09-01 21:40:00');
 
 -- --------------------------------------------------------
 
