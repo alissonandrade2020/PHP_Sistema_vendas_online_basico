@@ -11,7 +11,7 @@ CPF/CNPJ;
 ## Produto:
 
 Id;
-Descrição;
+Descrição; 
 Preço;
  
 
