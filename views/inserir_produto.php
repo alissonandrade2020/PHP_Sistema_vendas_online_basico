@@ -6,6 +6,9 @@
 	<label class="badge badge-secondary">Nome do produto</label><br>
 	<input class="form-control" type="text" name="descricao" placeholder="Insira o nome do produto" required>
 	<br><br>
+	<label class="badge badge-secondary">Quantidade Produto</label><br>
+	<input class="form-control"  type="text" name="quantidade" placeholder="Insira a quantidade" required><br><br>
+	<br><br>
 	<label class="badge badge-secondary">Preço do Produto</label><br>
 	<input class="form-control"  type="text" name="preco" placeholder="Insira o valor do produto" required><br><br>
 	<input type="submit" class="btn btn-success" value="Inserir produto">
@@ -23,8 +26,12 @@
 				<label class="badge badge-secondary">Nome do produto</label><br>
 				<input class="form-control" type="text" name="descricao" placeholder="Insira o nome do produto" value="<?php echo $linha['descricao']; ?>">
 				<br><br>
+				<label class="badge badge-secondary">Quantidade selecionado</label><br>
+				<input class="form-control" type="text" name="quantidade" placeholder="Insira a quantidade" value="<?php echo $linha['quantidade']; ?>">
+				<br><br>
 				<label class="badge badge-secondary">Preço do Produto</label><br>
-				<input class="form-control" type="text" name="preco" placeholder="Insira o valor do produto"  value="<?php echo $linha['preco']; ?>"><br><br>
+				<input class="form-control" type="text" name="preco" placeholder="Insira o valor do produto"  value="<?php echo $linha['preco']; ?>">
+				<br><br>
 				<input class="btn btn-success" type="submit" value="Editar produto">
 			</form>
 		<?php } ?>
