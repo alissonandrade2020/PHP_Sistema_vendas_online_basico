@@ -2,7 +2,7 @@
 
 include "model/db.php";
 
-$id_cliente_produto = $_GET['id_cliente_produt'];
+$id_cliente_produto = $_GET['id_cliente_produto'];
 
 $query = "DELETE FROM clientes_produtos WHERE id_cliente_produto = $id_cliente_produto";
 

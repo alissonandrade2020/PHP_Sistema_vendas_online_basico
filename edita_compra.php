@@ -2,13 +2,12 @@
 
 include "model/db.php";
 
-$id_produto = $_POST['id_produto'];
-$descricao = $_POST['descricao'];
-$quantidade = $_POST['quantidade'];
-$preco = $_POST['preco'];
+$id_compra = $_POST['id_compra'];
+$nome_curso = $_POST['nome_curso'];
+$quantidade = $_POST['carga_horaria'];
 
 
-$query = "UPDATE produtos SET descricao ='$descricao', quantidade = $quantidade, preco ='$preco' WHERE id_produto = $id_produto";
+$query = "UPDATE compras SET nome_curso ='$nome_curso', carga_horaria = $carga_horaria WHERE id_curso = $id_curso";
 
 
 mysqli_query($conexao, $query);
