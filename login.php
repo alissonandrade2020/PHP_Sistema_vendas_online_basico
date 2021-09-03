@@ -2,7 +2,7 @@
 
 $data = date("Y-m-d");
 
-include 'db.php';
+include "model/db.php";
 
 $usuario = addslashes($_POST['usuario']);
 

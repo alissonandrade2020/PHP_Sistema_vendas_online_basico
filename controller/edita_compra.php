@@ -1,6 +1,6 @@
 <?php 
 
-include 'db.php';
+include "model/db.php";
 
 $id_curso = $_POST['id_curso'];
 $nome_curso = $_POST['nome_curso'];

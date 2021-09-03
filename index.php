@@ -4,8 +4,7 @@
 session_start();
 
 # Base de dados
-include 'db.php';
-
+include "model/db.php";
 # Cabeçalho
 include 'header.php';
 

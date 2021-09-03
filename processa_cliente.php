@@ -1,6 +1,6 @@
 <?php 
 
-include 'db.php';
+include "model/db.php";
 
 $nome_cliente = $_POST['nome_cliente'];
 $cpf_cnpj = $_POST['cpf_cnpj'];

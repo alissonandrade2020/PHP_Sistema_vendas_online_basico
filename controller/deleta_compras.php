@@ -1,6 +1,6 @@
 <?php 
 
-include 'db.php';
+include "model/db.php";
 
 $id_aluno_curso = $_GET['id_aluno_curso'];
 

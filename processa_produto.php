@@ -1,6 +1,6 @@
 <?php 
 
-include 'db.php';
+include "model/db.php";
 
 $descricao = $_POST['descricao'];
 $quantidade = $_POST['quantidade'];
