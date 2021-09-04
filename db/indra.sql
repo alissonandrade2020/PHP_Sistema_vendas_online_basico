@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 03-Set-2021 às 23:42
+-- Tempo de geração: 04-Set-2021 às 16:04
 -- Versão do servidor: 10.4.19-MariaDB
 -- versão do PHP: 8.0.6
 
@@ -40,7 +40,8 @@ CREATE TABLE `clientes` (
 
 INSERT INTO `clientes` (`id_cliente`, `nome_cliente`, `cpf_cnpj`, `data`) VALUES
 (1, 'Alberia Beatriz Germano', '3263423423', '2021-09-01 16:30:07'),
-(2, 'Alisson de Andrade Araujo', '3234237423', '2021-09-01 16:30:07');
+(2, 'Alisson de Andrade Araujo', '3234237423', '2021-09-01 16:30:07'),
+(11, 'Gutenberg', '3232423432', '2021-09-04 14:01:59');
 
 -- --------------------------------------------------------
 
@@ -60,7 +61,9 @@ CREATE TABLE `clientes_produtos` (
 --
 
 INSERT INTO `clientes_produtos` (`id_cliente_produto`, `id_cliente`, `id_produto`, `data`) VALUES
-(2, 1, 2, '2019-06-25 21:06:55');
+(2, 1, 2, '2019-06-25 21:06:55'),
+(0, 2, 2, '2021-09-04 14:01:42'),
+(0, 11, 1, '2021-09-04 14:02:12');
 
 -- --------------------------------------------------------
 
@@ -81,8 +84,9 @@ CREATE TABLE `produtos` (
 --
 
 INSERT INTO `produtos` (`id_produto`, `descricao`, `quantidade`, `preco`, `data`) VALUES
-(1, 'CELULAR', '35', 144.00, '2021-09-01 21:40:00'),
-(2, 'NOTEBOOK', '84', 1470.00, '2021-09-01 21:40:00');
+(1, 'CELULAR', '37', 250.00, '2021-09-01 21:40:00'),
+(2, 'NOTEBOOK', '84', 1470.00, '2021-09-01 21:40:00'),
+(0, 'TV', '11', 258.00, '2021-09-03 22:00:21');
 
 -- --------------------------------------------------------
 
@@ -125,7 +129,7 @@ ALTER TABLE `clientes`
 -- AUTO_INCREMENT de tabela `clientes`
 --
 ALTER TABLE `clientes`
-  MODIFY `id_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id_cliente` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
