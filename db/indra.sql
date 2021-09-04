@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 04-Set-2021 às 16:04
+-- Tempo de geração: 04-Set-2021 às 16:21
 -- Versão do servidor: 10.4.19-MariaDB
 -- versão do PHP: 8.0.6
 
@@ -61,9 +61,9 @@ CREATE TABLE `clientes_produtos` (
 --
 
 INSERT INTO `clientes_produtos` (`id_cliente_produto`, `id_cliente`, `id_produto`, `data`) VALUES
-(2, 1, 2, '2019-06-25 21:06:55'),
-(0, 2, 2, '2021-09-04 14:01:42'),
-(0, 11, 1, '2021-09-04 14:02:12');
+(0, 2, 1, '2021-09-04 14:15:17'),
+(0, 1, 2, '2021-09-04 14:16:08'),
+(0, 11, 1, '2021-09-04 14:18:36');
 
 -- --------------------------------------------------------
 
@@ -86,7 +86,8 @@ CREATE TABLE `produtos` (
 INSERT INTO `produtos` (`id_produto`, `descricao`, `quantidade`, `preco`, `data`) VALUES
 (1, 'CELULAR', '37', 250.00, '2021-09-01 21:40:00'),
 (2, 'NOTEBOOK', '84', 1470.00, '2021-09-01 21:40:00'),
-(0, 'TV', '11', 258.00, '2021-09-03 22:00:21');
+(0, 'TV', '11', 258.00, '2021-09-03 22:00:21'),
+(0, 'TECLADO', '67', 5820.00, '2021-09-04 14:20:44');
 
 -- --------------------------------------------------------
 
